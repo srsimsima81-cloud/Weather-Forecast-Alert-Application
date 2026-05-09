@@ -1,39 +1,23 @@
-# 🍃 WeatherSphere 🌀  
-### Live Weather Intelligence + Forecast + Visualization System
+# 🍃 WeatherSphere 🌀
 
----
+## 🌦️ Live Weather Intelligence & Forecast System
 
-## 🌟 Overview
-WeatherSphere is a modern weather intelligence web application built using Python and Streamlit.
-
-It provides real-time weather updates, forecasts, alerts, analytics, and a dynamic UI that adapts based on weather conditions.
+WeatherSphere is a futuristic weather dashboard built using **Python, Streamlit, and OpenWeather API**. It provides real-time weather updates, multi-day forecasts, intelligent alerts, analytics, and interactive satellite mapping with a modern Apple-style UI experience.
 
 ---
 
 ## 🚀 Features
 
-### 🌡️ Real-Time Weather
-- Temperature, humidity, wind speed
-- Live weather condition detection
-
-### 📈 Forecast System
-- Multi-day forecast support
-- Trend-based visualization
-
-### ⚠️ Smart Alerts
-- Heat warnings
-- Rain alerts
-- Wind alerts
-
-### 🗺️ Interactive Map
-- City-based location mapping
-- Dark/satellite style visualization
-
-### 🎨 Dynamic UI
-- Temperature-based gradient backgrounds
-- Glassmorphism cards
-- Neon-style soft glow text
-- Animated title intro
+- 🌡️ Real-time weather data (temperature, humidity, wind, condition)
+- 📅 5-day weather forecast engine
+- ⚠️ Smart weather alerts system
+- 📊 Analytics with charts and trend visualization
+- 🛰️ Interactive satellite-style weather map (Folium)
+- 📄 Automatic report generation (CSV export)
+- 🎨 Dynamic UI with temperature-based background gradients
+- 💎 Glassmorphism UI with neon-style text glow
+- 🍏 Apple Weather-inspired design system
+- ⚡ Fast Streamlit web interface
 
 ---
 
@@ -47,53 +31,54 @@ Weather-Forecast-Alert-Application/
 │
 ├── src/                          # Core backend modules
 │   ├── __init__.py              # Makes src a Python package
-│   ├── weather_api.py           # Current weather + forecast API calls
-│   ├── forecast.py              # Forecast parsing & transformation
-│   ├── alerts.py                # Weather alert logic engine
-│   ├── visualization.py        # Charts & analytics generation
-│   └── report_generator.py     # CSV/report export system
+│   ├── weather_api.py           # API calls (current + forecast)
+│   ├── forecast.py              # Forecast parsing & processing
+│   ├── alerts.py                # Weather alert engine
+│   ├── visualization.py        # Charts & analytics generator
+│   └── report_generator.py     # Report/CSV export system
 │
-├── notebooks/                   # Jupyter analysis & experimentation
-│   └── WeatherSphere.ipynb     # Data exploration + testing
+├── notebooks/                   # Jupyter experimentation
+│   └── WeatherSphere.ipynb     # Data analysis & testing
 │
-├── outputs/                     # Generated reports & exports
+├── outputs/                     # Generated outputs
 │   ├── reports/                 # CSV weather reports
-│   └── charts/                  # Generated graphs/images
+│   └── charts/                  # Visualization images
 │
-├── venv/                        # Virtual environment (DO NOT PUSH TO GITHUB)
+├── venv/                        # Virtual environment (ignored in GitHub)
 │
 └── .env                         # API keys (OpenWeather API key)
----
-
-## 🌍 Test Cities
-
-- Jaisalmer (🔥 Extreme Heat)  
-- Hyderabad (🌤 Hot & Humid)  
-- London (🌧 Rainy)  
-- Toronto (❄ Cold)  
-- Kochi (🌦 Monsoon)  
 
 ---
 
-## ⚙️ Setup
+## 🧠 Tech Stack
 
-1. Install dependencies  
-   pip install -r requirements.txt  
-
-2. Add API key in `.env`  
-   API_KEY=your_key  
-
-3. Run app  
-   streamlit run dashboard.py  
-
----
-
-## 🎯 Highlights
-✔ Dynamic weather UI  
-✔ Forecast analytics  
-✔ Map integration  
-✔ Glassmorphism design  
-✔ Animated title system  
+- Python 🐍
+- Streamlit ⚡
+- OpenWeather API 🌍
+- Pandas 📊
+- Matplotlib 📈
+- Folium 🛰️
+- Jupyter Notebook 📓
 
 ---
 
+## ⚙️ Installation & Setup
+
+```bash
+# Clone repository
+git clone https://github.com/srsimsima81-cloud/Weather-Forecast-Alert-Application.git
+
+# Navigate to project
+cd Weather-Forecast-Alert-Application
+
+# Create virtual environment
+python -m venv venv
+
+# Activate environment
+venv\Scripts\activate   # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run app
+streamlit run dashboard.py
