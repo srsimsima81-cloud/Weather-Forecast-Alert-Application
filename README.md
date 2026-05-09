@@ -23,6 +23,8 @@ WeatherSphere is a futuristic weather dashboard built using **Python, Streamlit,
 
 ## 🏗️ Project Structure
 
+---
+
 Weather-Forecast-Alert-Application/
 │
 ├── dashboard.py                  # Main Streamlit application (UI + logic)
