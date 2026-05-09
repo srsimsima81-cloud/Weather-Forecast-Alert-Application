@@ -41,30 +41,28 @@ It provides real-time weather updates, forecasts, alerts, analytics, and a dynam
 
 Weather-Forecast-Alert-Application/
 │
-├── dashboard.py                     # Main Streamlit application (UI + logic)
-├── requirements.txt                # Project dependencies
-├── README.md                       # Project documentation
+├── dashboard.py                  # Main Streamlit application (UI + logic)
+├── requirements.txt              # Project dependencies
+├── README.md                     # Project documentation
 │
-├── src/                            # Core backend modules
-│   ├── __init__.py                 # Makes src a Python package
-│   ├── weather_api.py             # Current weather + forecast API calls
-│   ├── forecast.py                # Forecast parsing & transformation
-│   ├── alerts.py                  # Weather alert logic engine
-│   ├── visualization.py           # Charts & analytics generation
-│   └── report_generator.py        # CSV/report export system
+├── src/                          # Core backend modules
+│   ├── __init__.py              # Makes src a Python package
+│   ├── weather_api.py           # Current weather + forecast API calls
+│   ├── forecast.py              # Forecast parsing & transformation
+│   ├── alerts.py                # Weather alert logic engine
+│   ├── visualization.py        # Charts & analytics generation
+│   └── report_generator.py     # CSV/report export system
 │
-├── notebooks/                     # Jupyter analysis & experimentation
-│   └── WeatherSphere.ipynb        # Data exploration + testing
+├── notebooks/                   # Jupyter analysis & experimentation
+│   └── WeatherSphere.ipynb     # Data exploration + testing
 │
-├── outputs/                       # Generated reports & exports
-│   ├── reports/                   # CSV weather reports
-│   └── charts/                    # Generated graphs/images
+├── outputs/                     # Generated reports & exports
+│   ├── reports/                 # CSV weather reports
+│   └── charts/                  # Generated graphs/images
 │
+├── venv/                        # Virtual environment (DO NOT PUSH TO GITHUB)
 │
-├── venv/                          # Virtual environment (NOT push to GitHub)
-│
-└── .env                           # API keys (OpenWeather API key) 
-
+└── .env                         # API keys (OpenWeather API key)
 ---
 
 ## 🌍 Test Cities
