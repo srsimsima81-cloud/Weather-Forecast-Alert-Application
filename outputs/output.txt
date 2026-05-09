@@ -1,0 +1,9 @@
+
+Weather Report
+--------------
+City: Jaisalmer
+Temperature: 38.82 °C
+Humidity: 13 %
+Wind Speed: 4.6 m/s
+Condition: clear sky
+Alerts: High temperature warning

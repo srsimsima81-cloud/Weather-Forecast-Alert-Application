@@ -1,0 +1,12 @@
+WEATHER FORECAST DOCUMENTATION
+===============================
+
+City: Hyderabad
+Temperature: 34.23 °C
+Humidity: 38 %
+Pressure: 1006 hPa
+Wind Speed: 5.14 m/s
+Condition: scattered clouds
+
+Generated Alerts:
+No alerts generated

@@ -1,0 +1,12 @@
+WEATHER FORECAST DOCUMENTATION
+===============================
+
+City: Mumbai
+Temperature: 33.99 °C
+Humidity: 62 %
+Pressure: 1006 hPa
+Wind Speed: 5.14 m/s
+Condition: smoke
+
+Generated Alerts:
+No alerts generated
